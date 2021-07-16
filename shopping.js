@@ -40,7 +40,7 @@ const addItemToShoppingList = (shoppingListObject) => {
 
 const rice = {
     name: "Rice",
-    price: 4.99,
+    price: 8.99,
     quantityNeeded: 1,
     tempControl: false
 }
