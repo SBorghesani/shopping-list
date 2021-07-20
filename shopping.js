@@ -23,18 +23,13 @@ const shoppingList = [
 ]
 
 const addItemToShoppingList = (shoppingListObject) => {
-
     const lastIndex = shoppingList.length - 1;
-
     const currentLastItem = shoppingList[lastIndex];
-
     const maxId = currentLastItem.id;
-
     const idForNewItem = maxId + 1;
 
     shoppingListObject.id = idForNewItem;
     shoppingListObject.dateCreated = Date();
-
     shoppingList.push(shoppingListObject);
 }
 
